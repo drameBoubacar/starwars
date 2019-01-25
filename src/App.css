@@ -24,6 +24,7 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 
@@ -46,6 +47,15 @@ nav {
 .pictures{
   height: 70vh;
   background-image: url("/assets/kiloren.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.robot-img {
+  height: 50vh;
+  width: 30%;
+  background-image: url("/assets/r2d2_c3p0.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
