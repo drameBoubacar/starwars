@@ -6,7 +6,14 @@ html, body{
 
 nav {
   background-color: black;
+  position: fixed;
+  width: 100%;
+  /* top: 0; */
+}
+
+nav li  {
   color:#ffff;
+  text-decoration: none;
 }
 
 .nav-ul{
@@ -51,12 +58,4 @@ nav {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
-.robot-img {
-  height: 50vh;
-  width: 30%;
-  background-image: url("/assets/r2d2_c3p0.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
