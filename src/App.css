@@ -1,15 +1,21 @@
+html, body{
+  margin:0;
+  padding:0;
+  overflow-x: hidden;
+}
+
 nav {
   background-color: black;
   color:#ffff;
 }
 
-.list-nav {
+.nav-ul{
   list-style-type: none;
   display: flex;
   justify-content: space-around;
   text-transform: uppercase;
   margin: 0;
-  padding: 20px 0;
+  padding:20px;
 }
 
 .header{
@@ -20,3 +26,27 @@ nav {
   background-position: center;
 }
 
+
+.game-article {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center
+}
+.news p{
+  text-align: justify;
+}
+
+.news {
+  width: 50%;
+}
+.game{
+  width: 50%;
+}
+.pictures{
+  height: 70vh;
+  background-image: url("/assets/kiloren.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

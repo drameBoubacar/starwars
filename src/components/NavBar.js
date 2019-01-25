@@ -4,7 +4,7 @@ const NavBar = () => {
   return(
     <div>
       <nav>
-        <ul className="list-nav">
+        <ul className="nav-ul">
           <li>le coté lumineux</li>
           <li>le coté obscur</li>
           <li>l'empire</li>
