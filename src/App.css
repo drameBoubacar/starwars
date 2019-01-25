@@ -11,3 +11,12 @@ nav {
   margin: 0;
   padding: 20px 0;
 }
+
+.header{
+  height: 70vh;
+  background-image: url("/assets/header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
