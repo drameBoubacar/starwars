@@ -72,3 +72,26 @@ nav li  {
   background-position: center;
   background-attachment: fixed;
 }
+.footer{
+  height: 15vh;
+  background-image: url("/assets/darthvader.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.footer h2 {
+  margin: 0;
+  text-align: center;
+}
+.footer-list {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-list ul {
+  list-style-type: none;
+}
+.list-icon-footer{
+  display: flex;
+}

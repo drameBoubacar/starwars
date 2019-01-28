@@ -5,6 +5,7 @@ import GameArticle from './components/GameArticle';
 import SectionImage from './components/SectionImage';
 import DarkVador from './components/DarkVador';
 import TopFooter from './components/TopFooter';
+import Footer from './components/Footer';
 import './App.css';
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
       <SectionImage/>
       <DarkVador/>
       <TopFooter/>
+      <Footer/>
       </div>
     );
   }
