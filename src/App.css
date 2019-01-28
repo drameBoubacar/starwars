@@ -59,3 +59,16 @@ nav li  {
   background-position: center;
   background-attachment: fixed;
 }
+.darkvador-container {
+  display: flex;
+  padding: 0 20% 0 0;
+  margin-top: 5%;
+}
+.troopers {
+  height: 50vh;
+  background-image: url("/assets/stormtroopers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
