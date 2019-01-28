@@ -95,3 +95,35 @@ nav li  {
 .list-icon-footer{
   display: flex;
 }
+
+
+@media screen and (max-width: 1024px){
+  .header {
+    background-size: cover;
+    height: 40vh;
+    background-attachment: inherit;
+  }
+  .news {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .game-article {
+    display: flex;
+    flex-direction: column;
+  }
+  .game {
+    width: 100%;
+  }
+  .game img {
+    width:100%;
+  }
+  .darkvador-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width:100%;
+  }
+  .darkvador-container img{
+    width: 100%;
+  }
+}
