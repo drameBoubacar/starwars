@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NavBar from './components/NavBar';
+// import NavBar from './components/NavBar';
 import Header from './components/Header';
 import GameArticle from './components/GameArticle';
 import SectionImage from './components/SectionImage';
@@ -12,13 +12,13 @@ class App extends Component {
   render() {
     return (
       <div>
-      <NavBar/>
-      <Header/>
-      <GameArticle/>
-      <SectionImage/>
-      <DarkVador/>
-      <TopFooter/>
-      <Footer/>
+        {/* <NavBar/> */}
+        <Header/>
+        <GameArticle/>
+        <SectionImage/>
+        <DarkVador/>
+        <TopFooter/>
+        <Footer/>
       </div>
     );
   }
